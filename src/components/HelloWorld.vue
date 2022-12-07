@@ -104,7 +104,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-
+console.log(defineComponent)
+console.dir(defineComponent)
 export default defineComponent({
   name: "HelloWorld",
   props: {
