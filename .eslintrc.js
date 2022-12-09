@@ -19,8 +19,9 @@ module.exports = {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     'eol-last': 0, // 文末需要回车配置
     'no-unused-vars': 0, // 关闭定义变量未使用提示/报错
+    "@typescript-eslint/no-unused-vars": 0,
     '@typescript-eslint/no-empty-function': 'off', // 允许空函数
-    'no-empty-function': 'warn',
+    'no-empty-function': 'off',
 
   },
   overrides: [
