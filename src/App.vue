@@ -22,5 +22,6 @@ import headBarVue from "./pageComponents/headBar/index.vue";
   min-width: 1280px;
   min-height: 550px;
   height: 100vh;
+
 }
 </style>

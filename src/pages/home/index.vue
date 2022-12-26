@@ -10,10 +10,11 @@
 <template>
   <div class="tj-container">
     <div class="map-content">
-      <img src="../../assets/login_bg.jpeg" alt="">
+      <bgMap></bgMap>
       <div class="map-inner-left">
         <pageView :title="'节能减排量统计'">
           <div style="height:250px">
+            <echartGaugeVue></echartGaugeVue>
 
           </div>
         </pageView>
@@ -77,9 +78,14 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive, toRefs, onMounted, getCurrentInstance } from 'vue'
+import { reactive, toRefs, onMounted, getCurrentInstance } from 'vue';
+import { bgMap, echartGaugeVue } from './components'
 import pageView from "@/pageComponents/pageView/index.vue"
 
+onMounted(() => {
+
+
+})
 </script>
 <style scoped lang="scss">
 .map-content {
@@ -90,6 +96,11 @@ import pageView from "@/pageComponents/pageView/index.vue"
   img {
     width: 100%;
   }
+
+  // #home-map {
+  //   width: 100%;
+  //   height: 100vh;
+  // }
 
   .map-inner-left {
     width: 25%;

@@ -29,7 +29,7 @@ const props = defineProps({
     width: 100%;
     // border: 1px solid #fff;
     position: relative;
-    background: rgba(63, 97, 233, 0.2);
+    background: rgba(15, 17, 24, 0.3);
 
     &::before {
         content: '';

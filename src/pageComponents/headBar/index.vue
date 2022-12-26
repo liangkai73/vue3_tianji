@@ -66,7 +66,7 @@ onMounted(() => {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(63, 97, 233, 0.2);
+    background: rgba(15, 17, 24, 0.3);
     color: #fff;
     width: 100%;
     z-index: 10000;
